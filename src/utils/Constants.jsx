@@ -6,3 +6,12 @@ export const BG_IMG =
 
 export const PROFILE_PIC =
   "https://avatars.githubusercontent.com/u/112876200?v=4";
+
+export const options = {
+  method: "GET",
+  headers: {
+    accept: "application/json",
+    Authorization:
+      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1ZThlMTMyZWNiZTI1ODEyNmNiODFmNDJmYmE5Y2M0YiIsInN1YiI6IjY1NzMzNjU1MWM2MzViMDBhYjFiYzQ0ZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.__6LYrsufRAM9SSAR3lKlUt0dF-4uqKL1PiFvilDICk",
+  },
+};
