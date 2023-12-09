@@ -6,7 +6,7 @@ import { setUpcomingMovie } from "../utils/MovieSlice";
 export const MoviesUpcoming = () => {
   // i will be fetching the data from the api to see what is the response
   // i will be using the useEffect hook to fetch the data from the api
-  const upcoming = useSelector((store) => store?.Movie?.UpcomingMovie);
+  const upcoming = useSelector((store) => store.Movie.UpcomingMovie);
   const dispatch = useDispatch();
 
   const getting = async () => {

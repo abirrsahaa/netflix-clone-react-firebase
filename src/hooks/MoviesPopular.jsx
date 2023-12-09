@@ -7,7 +7,7 @@ export const MoviesPopular = () => {
   // i will be fetching the data from the api to see what is the response
   // i will be using the useEffect hook to fetch the data from the api
 
-  const popular = useSelector((store) => store?.Movie?.PopularMovie);
+  const popular = useSelector((store) => store.Movie.PopularMovie);
   const dispatch = useDispatch();
 
   const getting = async () => {

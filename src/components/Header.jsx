@@ -60,13 +60,13 @@ const Header = () => {
       {user && (
         <div className="flex gap-4 ">
           <img
-            className="w-44 mx-auto md:mx-0"
+            className="hidden md:block w-12 h-12"
             src={PROFILE_PIC}
             alt="profile pic"
           />
           <button
             onClick={signouthandler}
-            className="py-2 px-4 mx-4 my-2 bg-purple-800 text-white rounded-lg"
+            className="font-bold text-white rounded-lg shadow-md w-12 h-12"
           >
             Sign Out
           </button>
