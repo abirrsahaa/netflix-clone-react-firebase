@@ -17,3 +17,12 @@ export const options = {
 };
 
 export const IMAGE_CDN_URL = "https://image.tmdb.org/t/p/w500";
+
+export const open_ai_key =
+  "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";
+
+export const SUPPORTED_LANGUAGES = [
+  { identifier: "en", name: "English" },
+  { identifier: "hindi", name: "Hindi" },
+  { identifier: "spanish", name: "Spanish" },
+];
